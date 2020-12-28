@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="admin-01-webui:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5e85c2c8-e947-4fba-bf19-8b05c9ae073b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\develop_tools\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1bRjEdA54OXzkd0BoHWOsdbAleF" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin-parent/admin-01-webui" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.12254902" />
+    <property name="project.structure.side.proportion" value="0.24060151" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\code\idea\study\founding\admin-parent\admin-01-webui\src\main\resources\mybatis\mapper" />
+      <recent name="E:\code\idea\study\founding\admin-parent\admin-01-webui" />
+      <recent name="E:\code\idea\study\founding\admin-parent\admin-01-webui\src\main\webapp\resource" />
+      <recent name="E:\code\idea\study\founding\admin-parent\admin-02-componment\src\main\resources" />
+      <recent name="E:\code\idea\study\founding\admin-parent\admin-02-componment\src\main\java\org\cl" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.cl.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\idea\study\founding\admin-parent\admin-03-entity\src\main\java\org\cl\entity" />
+      <recent name="E:\code\idea\study\founding\admin-parent\admin-02-componment\src\main\java\org\cl\service\impl" />
+      <recent name="E:\code\idea\study\founding\admin-parent\admin-02-componment\src\main\java\org\cl\service\api" />
+      <recent name="E:\code\idea\study\founding\admin-parent\admin-02-componment\src\main\java\org\cl\mapper" />
+      <recent name="E:\code\idea\study\founding\admin-parent\admin-01-webui\src\main\resources\mybatis\mapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.tomcat9">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataSourceTest.batchInsertAdmin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="admin-01-webui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cl" />
+      <option name="MAIN_CLASS_NAME" value="org.cl.DataSourceTest" />
+      <option name="METHOD_NAME" value="batchInsertAdmin" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataSourceTest.getConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="admin-01-webui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cl" />
+      <option name="MAIN_CLASS_NAME" value="org.cl.DataSourceTest" />
+      <option name="METHOD_NAME" value="getConnection" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataSourceTest.insertAdminTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="admin-01-webui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cl" />
+      <option name="MAIN_CLASS_NAME" value="org.cl.DataSourceTest" />
+      <option name="METHOD_NAME" value="insertAdminTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataSourceTest.saveAdminByTxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="admin-01-webui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cl" />
+      <option name="MAIN_CLASS_NAME" value="org.cl.DataSourceTest" />
+      <option name="METHOD_NAME" value="saveAdminByTxTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Md5Test.md5Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="admin-01-webui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cl" />
+      <option name="MAIN_CLASS_NAME" value="org.cl.Md5Test" />
+      <option name="METHOD_NAME" value="md5Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat9.0.41" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/admin_01_webui_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="admin-01-webui:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/admin_01_webui_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_founding" />
+        <option name="JNDI_PORT" value="1001" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="3000" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Debug with VisualVM">
+        <option name="DEBUG_PORT" value="javadebug" />
+        <option name="visualVMId" value="3910161978700" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="admin-01-webui:war" />
+          <artifact name="admin-01-webui:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.DataSourceTest.getConnection" />
+      <item itemvalue="JUnit.DataSourceTest.insertAdminTest" />
+      <item itemvalue="JUnit.DataSourceTest.saveAdminByTxTest" />
+      <item itemvalue="JUnit.Md5Test.md5Test" />
+      <item itemvalue="JUnit.DataSourceTest.batchInsertAdmin" />
+      <item itemvalue="Tomcat Server.tomcat9" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DataSourceTest.batchInsertAdmin" />
+        <item itemvalue="JUnit.Md5Test.md5Test" />
+        <item itemvalue="JUnit.DataSourceTest.saveAdminByTxTest" />
+        <item itemvalue="JUnit.DataSourceTest.insertAdminTest" />
+        <item itemvalue="JUnit.DataSourceTest.getConnection" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\86353\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e85c2c8-e947-4fba-bf19-8b05c9ae073b" name="Default Changelist" comment="" />
+      <created>1588601689389</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588601689389</updated>
+      <workItem from="1588601693056" duration="3541000" />
+      <workItem from="1588655628654" duration="4781000" />
+      <workItem from="1588683278018" duration="3132000" />
+      <workItem from="1588724374490" duration="2547000" />
+      <workItem from="1588770898440" duration="6070000" />
+      <workItem from="1588811683176" duration="4498000" />
+      <workItem from="1588824632866" duration="610000" />
+      <workItem from="1588829568102" duration="612000" />
+      <workItem from="1588920543451" duration="938000" />
+      <workItem from="1588949139183" duration="1223000" />
+      <workItem from="1589157626549" duration="3051000" />
+      <workItem from="1589207148909" duration="93000" />
+      <workItem from="1589807769839" duration="2104000" />
+      <workItem from="1589848831362" duration="12190000" />
+      <workItem from="1589895905365" duration="2571000" />
+      <workItem from="1589980266211" duration="2482000" />
+      <workItem from="1590020347504" duration="12253000" />
+      <workItem from="1590130427878" duration="7364000" />
+      <workItem from="1590157325269" duration="1578000" />
+      <workItem from="1590239080236" duration="4719000" />
+      <workItem from="1590328454408" duration="2694000" />
+      <workItem from="1590413292540" duration="5504000" />
+      <workItem from="1590452253732" duration="9738000" />
+      <workItem from="1590481818283" duration="3011000" />
+      <workItem from="1590731264401" duration="738000" />
+      <workItem from="1591232685764" duration="301000" />
+      <workItem from="1591622556904" duration="1197000" />
+      <workItem from="1591662029135" duration="10045000" />
+      <workItem from="1591681119625" duration="51000" />
+      <workItem from="1591694275205" duration="160000" />
+      <workItem from="1591711347841" duration="3138000" />
+      <workItem from="1591748914972" duration="2277000" />
+      <workItem from="1592118616371" duration="3844000" />
+      <workItem from="1592180824558" duration="5408000" />
+      <workItem from="1592199702504" duration="2692000" />
+      <workItem from="1592227799737" duration="3811000" />
+      <workItem from="1592267682769" duration="2818000" />
+      <workItem from="1592271150726" duration="993000" />
+      <workItem from="1592318179302" duration="568000" />
+      <workItem from="1592318804449" duration="711000" />
+      <workItem from="1592469222528" duration="710000" />
+      <workItem from="1592836637018" duration="4330000" />
+      <workItem from="1592874661139" duration="13000" />
+      <workItem from="1592874845171" duration="2015000" />
+      <workItem from="1592920208532" duration="1852000" />
+      <workItem from="1593008156540" duration="2983000" />
+      <workItem from="1593091784397" duration="1929000" />
+      <workItem from="1593178768491" duration="2381000" />
+      <workItem from="1593265808011" duration="1376000" />
+      <workItem from="1593304941195" duration="1197000" />
+      <workItem from="1594937607770" duration="1209000" />
+      <workItem from="1595233295007" duration="835000" />
+      <workItem from="1595831239982" duration="4872000" />
+      <workItem from="1595898451460" duration="7047000" />
+      <workItem from="1595985741103" duration="4604000" />
+      <workItem from="1596070895622" duration="2337000" />
+      <workItem from="1596146201927" duration="1940000" />
+      <workItem from="1596260723243" duration="673000" />
+      <workItem from="1603157941876" duration="1757000" />
+      <workItem from="1608109615910" duration="2257000" />
+      <workItem from="1608125871726" duration="1652000" />
+      <workItem from="1608162948492" duration="1342000" />
+      <workItem from="1608186134632" duration="3895000" />
+      <workItem from="1608445994513" duration="7117000" />
+      <workItem from="1608731461724" duration="16240000" />
+      <workItem from="1609160490250" duration="1043000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

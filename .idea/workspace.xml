@@ -3,17 +3,107 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="admin-01-webui:war" />
+      <artifact name="admin-01-webui:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e85c2c8-e947-4fba-bf19-8b05c9ae073b" name="Default Changelist" comment="" />
+    <list default="true" id="5e85c2c8-e947-4fba-bf19-8b05c9ae073b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/admin_01_webui_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/admin_01_webui_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_el_api_2_1_2_b05.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1_3_b06.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_servlet_3_0_b70.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_acl_4_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_4_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_20_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_21_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_20_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_21_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_20_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_21_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_20_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_20_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_21_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_20_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_20_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_20_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_20_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_20_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_21_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_20_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-parent/admin-02-componment/src/main/java/org/cl/service/config/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin-parent/admin-02-componment/src/main/java/org/cl/web/config/SecurityAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/sql/found.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-parent/admin-01-webui/admin-01-webui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-parent/admin-01-webui/admin-01-webui.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-parent/admin-01-webui/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/admin-parent/admin-01-webui/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-parent/admin-01-webui/src/test/java/org/cl/Md5Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-parent/admin-01-webui/src/test/java/org/cl/Md5Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-parent/admin-02-componment/admin-02-componment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-parent/admin-02-componment/admin-02-componment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-parent/admin-02-componment/src/main/java/org/cl/service/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-parent/admin-02-componment/src/main/java/org/cl/service/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-parent/admin-02-componment/src/main/java/org/cl/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-parent/admin-02-componment/src/main/java/org/cl/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-parent/admin-03-entity/admin-03-entity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-parent/admin-03-entity/admin-03-entity.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-parent/admin-parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-parent/admin-parent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-reverse/common-reverse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-reverse/common-reverse.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/common-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/common-util.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/founding.iml" beforeDir="false" afterPath="$PROJECT_DIR$/founding.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,6 +115,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -35,7 +131,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="userSettingsFile" value="D:\develop_tools\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="mavenHome" value="D:\ProgramFiles\develop_tools\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\ProgramFiles\develop_tools\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -43,6 +140,7 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1bRjEdA54OXzkd0BoHWOsdbAleF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -52,9 +150,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin-parent/admin-01-webui" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/doc/sql" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -66,10 +165,17 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.12254902" />
     <property name="project.structure.side.proportion" value="0.24060151" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\idea\study\founding\doc\sql" />
+      <recent name="D:\Code\idea\study\founding\admin-parent\admin-02-componment\src\main\java\org\cl\web\config" />
+      <recent name="E:\code\idea\study\founding\admin-parent\admin-03-entity\src\main\java\org\cl\entity" />
+      <recent name="E:\code\idea\study\founding\admin-parent\admin-02-componment\src\main\java\org\cl\service\impl" />
+      <recent name="E:\code\idea\study\founding\admin-parent\admin-02-componment\src\main\java\org\cl\service\api" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\code\idea\study\founding\admin-parent\admin-01-webui\src\main\resources\mybatis\mapper" />
       <recent name="E:\code\idea\study\founding\admin-parent\admin-01-webui" />
@@ -79,13 +185,6 @@
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.cl.entity" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\code\idea\study\founding\admin-parent\admin-03-entity\src\main\java\org\cl\entity" />
-      <recent name="E:\code\idea\study\founding\admin-parent\admin-02-componment\src\main\java\org\cl\service\impl" />
-      <recent name="E:\code\idea\study\founding\admin-parent\admin-02-componment\src\main\java\org\cl\service\api" />
-      <recent name="E:\code\idea\study\founding\admin-parent\admin-02-componment\src\main\java\org\cl\mapper" />
-      <recent name="E:\code\idea\study\founding\admin-parent\admin-01-webui\src\main\resources\mybatis\mapper" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.tomcat9">
@@ -183,6 +282,53 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="admin-01-webui" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="admin-01-webui" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -321,20 +467,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.DataSourceTest.batchInsertAdmin" />
       <item itemvalue="JUnit.DataSourceTest.getConnection" />
       <item itemvalue="JUnit.DataSourceTest.insertAdminTest" />
       <item itemvalue="JUnit.DataSourceTest.saveAdminByTxTest" />
       <item itemvalue="JUnit.Md5Test.md5Test" />
-      <item itemvalue="JUnit.DataSourceTest.batchInsertAdmin" />
       <item itemvalue="Tomcat Server.tomcat9" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DataSourceTest.batchInsertAdmin" />
         <item itemvalue="JUnit.Md5Test.md5Test" />
         <item itemvalue="JUnit.DataSourceTest.saveAdminByTxTest" />
         <item itemvalue="JUnit.DataSourceTest.insertAdminTest" />
         <item itemvalue="JUnit.DataSourceTest.getConnection" />
+        <item itemvalue="JUnit.DataSourceTest.batchInsertAdmin" />
       </list>
     </recent_temporary>
   </component>
@@ -418,10 +564,49 @@
       <workItem from="1608445994513" duration="7117000" />
       <workItem from="1608731461724" duration="16240000" />
       <workItem from="1609160490250" duration="1043000" />
+      <workItem from="1609216253131" duration="3632000" />
+      <workItem from="1609239204310" duration="676000" />
+      <workItem from="1609239900871" duration="2182000" />
+      <workItem from="1609288324227" duration="771000" />
+      <workItem from="1609289146470" duration="1816000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/old" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始提交" />
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history>
+      <element expression="saveAdmin" />
+    </find-history>
   </component>
 </project>

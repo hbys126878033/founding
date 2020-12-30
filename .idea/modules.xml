@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/admin-parent/admin-01-webui/admin-01-webui.iml" filepath="$PROJECT_DIR$/admin-parent/admin-01-webui/admin-01-webui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin-parent/admin-02-componment/admin-02-componment.iml" filepath="$PROJECT_DIR$/admin-parent/admin-02-componment/admin-02-componment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin-parent/admin-03-entity/admin-03-entity.iml" filepath="$PROJECT_DIR$/admin-parent/admin-03-entity/admin-03-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin-parent/admin-parent.iml" filepath="$PROJECT_DIR$/admin-parent/admin-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-reverse/common-reverse.iml" filepath="$PROJECT_DIR$/common-reverse/common-reverse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-util/common-util.iml" filepath="$PROJECT_DIR$/common-util/common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/founding.iml" filepath="$PROJECT_DIR$/founding.iml" />
+    </modules>
+  </component>
+</project>

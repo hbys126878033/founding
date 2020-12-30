@@ -16,6 +16,7 @@ import org.cl.mapper.AdminMapper;
 import org.cl.service.api.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DuplicateKeyException;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -34,6 +35,9 @@ public class AdminServiceImpl implements AdminService {
 
     @Autowired
     private AdminMapper adminMapper;
+
+    @Autowired
+    private BCryptPasswordEncoder bCryptPasswordEncoder;
 
     @Override
     public void saveAdmin(Admin admin) {

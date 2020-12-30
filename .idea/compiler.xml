@@ -9,10 +9,19 @@
         <outputRelativeToContentRoot value="true" />
         <module name="common-util" />
         <module name="common-reverse" />
-        <module name="admin-01-webui" />
         <module name="admin-02-componment" />
+        <module name="admin-01-webui" />
         <module name="admin-03-entity" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin-01-webui" target="1.8" />
+      <module name="admin-02-componment" target="1.8" />
+      <module name="admin-03-entity" target="1.8" />
+      <module name="admin-parent" target="1.8" />
+      <module name="common-reverse" target="1.8" />
+      <module name="common-util" target="1.8" />
+      <module name="founding" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

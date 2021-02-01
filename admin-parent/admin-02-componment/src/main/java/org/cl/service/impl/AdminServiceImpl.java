@@ -4,6 +4,7 @@ import cn.hutool.core.date.DateUtil;
 import cn.hutool.crypto.SecureUtil;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.cl.constant.SystemConstant;
@@ -29,6 +30,7 @@ import java.util.Objects;
  * @version：1.0
  **/
 @Service
+@Slf4j
 public class AdminServiceImpl implements AdminService {
 
     private static final Log logger = LogFactory.getLog(AdminServiceImpl.class);
@@ -42,7 +44,12 @@ public class AdminServiceImpl implements AdminService {
     @Override
     public void saveAdmin(Admin admin) {
         try {
-            admin.setUserPswd(SecureUtil.md5(admin.getUserPswd()));
+            // TODO 加密方式调整
+            // admin.setUserPswd(SecureUtil.md5(admin.getUserPswd()));
+            String password = admin.getUserPswd();
+            admin.setUserPswd(bCryptPasswordEncoder.encode(password));
+            log.info("密码原文：｛｝，密文：｛｝",password,admin.getUserPswd());
+
             admin.setCreateTime(DateUtil.now());
             adminMapper.insert(admin);
         } catch (Exception e) {
@@ -129,6 +136,7 @@ public class AdminServiceImpl implements AdminService {
     @Override
     public void update(Admin admin) {
         try {
+
             this.adminMapper.updateByPrimaryKeySelective(admin);
         } catch (Exception e) {
             e.printStackTrace();

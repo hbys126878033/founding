@@ -9,6 +9,17 @@
       <module fileurl="file://$PROJECT_DIR$/common-reverse/common-reverse.iml" filepath="$PROJECT_DIR$/common-reverse/common-reverse.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-util/common-util.iml" filepath="$PROJECT_DIR$/common-util/common-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/founding.iml" filepath="$PROJECT_DIR$/founding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-02-entity/member-02-entity.iml" filepath="$PROJECT_DIR$/member-parent/member-02-entity/member-02-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-03-mysql-provider/member-03-mysql-provider.iml" filepath="$PROJECT_DIR$/member-parent/member-03-mysql-provider/member-03-mysql-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-04-redis-provider/member-04-redis-provider.iml" filepath="$PROJECT_DIR$/member-parent/member-04-redis-provider/member-04-redis-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-05-authentication-consumer/member-05-authentication-consumer.iml" filepath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/member-05-authentication-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-06-project-consumer/member-06-project-consumer.iml" filepath="$PROJECT_DIR$/member-parent/member-06-project-consumer/member-06-project-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-07-order-consumer/member-07-order-consumer.iml" filepath="$PROJECT_DIR$/member-parent/member-07-order-consumer/member-07-order-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-08-pay-consumer/member-08-pay-consumer.iml" filepath="$PROJECT_DIR$/member-parent/member-08-pay-consumer/member-08-pay-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-09-zuul/member-09-zuul.iml" filepath="$PROJECT_DIR$/member-parent/member-09-zuul/member-09-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-10-api/member-10-api.iml" filepath="$PROJECT_DIR$/member-parent/member-10-api/member-10-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-01-eureka/member-eureka.iml" filepath="$PROJECT_DIR$/member-parent/member-01-eureka/member-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-parent.iml" filepath="$PROJECT_DIR$/member-parent/member-parent.iml" />
     </modules>
   </component>
 </project>

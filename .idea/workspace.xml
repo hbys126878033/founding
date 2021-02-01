@@ -11,80 +11,386 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e85c2c8-e947-4fba-bf19-8b05c9ae073b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/admin_01_webui_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/admin_01_webui_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_el_api_2_1_2_b05.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1_3_b06.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_servlet_3_0_b70.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_acl_4_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_4_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_20_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_21_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_20_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_21_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_20_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_21_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_20_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_20_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_21_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_20_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_20_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_20_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_20_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_20_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_21_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_20_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-parent/admin-02-componment/src/main/java/org/cl/service/config/CustomUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-parent/admin-02-componment/src/main/java/org/cl/web/config/SecurityAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/sql/found.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_andrewoma_dexx_dexx_collections_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_vlsi_compactmap_compactmap_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_loader_tools_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_core_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_data_redis_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/java/org/cl/constant/AccessPassResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/java/org/cl/exception/LoginAcctAlreadyInUseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/java/org/cl/exception/LoginAcctAlreadyInUseForUpdateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-01-eureka/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-01-eureka/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-01-eureka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-01-eureka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-01-eureka/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-01-eureka/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-01-eureka/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-01-eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-01-eureka/src/main/java/org/cl/member/MemberEurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-01-eureka/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-01-eureka/src/test/java/org/cl/member/MemberEurekaApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-02-entity/src/main/java/org/cl/member/entity/po/MemberConfirmInfoPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-02-entity/src/main/java/org/cl/member/entity/po/MemberConfirmInfoPOExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-02-entity/src/main/java/org/cl/member/entity/po/MemberLaunchInfoPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-02-entity/src/main/java/org/cl/member/entity/po/MemberLaunchInfoPOExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-02-entity/src/main/java/org/cl/member/entity/po/MemberPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-02-entity/src/main/java/org/cl/member/entity/po/MemberPOExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-02-entity/src/main/java/org/cl/member/entity/po/ProjectItemPicPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-02-entity/src/main/java/org/cl/member/entity/po/ProjectItemPicPOExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-02-entity/src/main/java/org/cl/member/entity/po/ProjectPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-02-entity/src/main/java/org/cl/member/entity/po/ProjectPOExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-02-entity/src/main/java/org/cl/member/entity/po/ReturnPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-02-entity/src/main/java/org/cl/member/entity/po/ReturnPOExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-02-entity/src/main/java/org/cl/member/entity/po/TagPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-02-entity/src/main/java/org/cl/member/entity/po/TagPOExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-02-entity/src/main/java/org/cl/member/entity/po/TypePO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-02-entity/src/main/java/org/cl/member/entity/po/TypePOExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-02-entity/src/main/java/org/cl/member/entity/vo/MemberConfirmInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-02-entity/src/main/java/org/cl/member/entity/vo/MemberLauchInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-02-entity/src/main/java/org/cl/member/entity/vo/MemberLoginVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-02-entity/src/main/java/org/cl/member/entity/vo/MemberVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-02-entity/src/main/java/org/cl/member/entity/vo/ProjectVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-02-entity/src/main/java/org/cl/member/entity/vo/ReturnVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-03-mysql-provider/src/main/java/org/cl/member/mapper/MemberConfirmInfoPOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-03-mysql-provider/src/main/java/org/cl/member/mapper/MemberLaunchInfoPOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-03-mysql-provider/src/main/java/org/cl/member/mapper/MemberPOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-03-mysql-provider/src/main/java/org/cl/member/mapper/ProjectItemPicPOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-03-mysql-provider/src/main/java/org/cl/member/mapper/ProjectPOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-03-mysql-provider/src/main/java/org/cl/member/mapper/ReturnPOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-03-mysql-provider/src/main/java/org/cl/member/mapper/TagPOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-03-mysql-provider/src/main/java/org/cl/member/mapper/TypePOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-03-mysql-provider/src/main/java/org/cl/member/service/api/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-03-mysql-provider/src/main/java/org/cl/member/service/api/ProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-03-mysql-provider/src/main/java/org/cl/member/service/impl/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-03-mysql-provider/src/main/java/org/cl/member/service/impl/ProjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-03-mysql-provider/src/main/java/org/cl/member/web/MemberProviderHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-03-mysql-provider/src/main/java/org/cl/member/web/ProjectProviderHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-03-mysql-provider/src/main/resources/mybatis/mapper/MemberConfirmInfoPOMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-03-mysql-provider/src/main/resources/mybatis/mapper/MemberLaunchInfoPOMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-03-mysql-provider/src/main/resources/mybatis/mapper/MemberPOMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-03-mysql-provider/src/main/resources/mybatis/mapper/ProjectItemPicPOMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-03-mysql-provider/src/main/resources/mybatis/mapper/ProjectPOMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-03-mysql-provider/src/main/resources/mybatis/mapper/ReturnPOMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-03-mysql-provider/src/main/resources/mybatis/mapper/TagPOMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-03-mysql-provider/src/main/resources/mybatis/mapper/TypePOMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-04-redis-provider/src/main/java/org/cl/member/web/RedisHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/java/org/cl/member/config/CustomWebMvcConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/java/org/cl/member/web/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/java/org/cl/member/web/PortalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/css/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/css/doc.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/css/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/fonts/fontawesome4.2/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/fonts/fontawesome4.2/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/fonts/fontawesome4.2/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/fonts/fontawesome4.2/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/fonts/fontawesome4.2/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/img/carousel-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/img/carousel-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/img/carousel-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/img/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/img/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/img/p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/img/p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/img/pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/img/product-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/img/product-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/img/product-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/img/product-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/img/product-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/img/product-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/img/product-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/img/product-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/img/product-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/img/product_detail_body.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/img/product_detail_head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/img/services-box1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/img/services-box2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/img/services-box3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/img/services-box4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/jquery/jquery-2.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/jquery/jquery-form.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/jquery/jquery.pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/layer/mobile/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/layer/mobile/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/layer/theme/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/layer/theme/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/layer/theme/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/layer/theme/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/layer/theme/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/layer/theme/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/script/back-to-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/script/docs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/script/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/ztree/img/diy/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/ztree/img/diy/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/ztree/img/diy/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/ztree/img/diy/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/ztree/img/diy/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/ztree/img/diy/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/ztree/img/diy/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/ztree/img/diy/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/ztree/img/diy/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/ztree/img/diy/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/ztree/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/ztree/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/ztree/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/ztree/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/ztree/jquery.ztree.all-3.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/static/ztree/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/templates/member-center.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/templates/member-crowd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/templates/member-login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/templates/member-reg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/resources/templates/portal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-06-project-consumer/src/main/java/org/cl/member/config/CustomWebMvcConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-06-project-consumer/src/main/java/org/cl/member/web/ProjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-06-project-consumer/src/main/resources/templates/project-agree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-06-project-consumer/src/main/resources/templates/project-launch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-06-project-consumer/src/main/resources/templates/project-return.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-09-zuul/src/main/java/org/cl/member/filter/AccessFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-10-api/src/main/java/org/cl/member/api/MySQLRemoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-10-api/src/main/java/org/cl/member/api/RedisRemoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member-parent/member-parent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-parent/admin-01-webui/admin-01-webui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-parent/admin-01-webui/admin-01-webui.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin-parent/admin-01-webui/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/admin-parent/admin-01-webui/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-parent/admin-01-webui/src/test/java/org/cl/Md5Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-parent/admin-01-webui/src/test/java/org/cl/Md5Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-parent/admin-02-componment/admin-02-componment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-parent/admin-02-componment/admin-02-componment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-parent/admin-01-webui/src/main/resources/spring-web-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-parent/admin-01-webui/src/main/resources/spring-web-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-parent/admin-01-webui/src/main/webapp/WEB-INF/admin-main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/admin-parent/admin-01-webui/src/main/webapp/WEB-INF/admin-main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-parent/admin-01-webui/src/main/webapp/WEB-INF/assign-role.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/admin-parent/admin-01-webui/src/main/webapp/WEB-INF/assign-role.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-parent/admin-01-webui/src/main/webapp/WEB-INF/include-nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/admin-parent/admin-01-webui/src/main/webapp/WEB-INF/include-nav.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-parent/admin-01-webui/src/main/webapp/WEB-INF/role-page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/admin-parent/admin-01-webui/src/main/webapp/WEB-INF/role-page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-parent/admin-01-webui/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-parent/admin-01-webui/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-parent/admin-02-componment/src/main/java/org/cl/service/config/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-parent/admin-02-componment/src/main/java/org/cl/service/config/CustomUserDetailsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin-parent/admin-02-componment/src/main/java/org/cl/service/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-parent/admin-02-componment/src/main/java/org/cl/service/config/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin-parent/admin-02-componment/src/main/java/org/cl/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-parent/admin-02-componment/src/main/java/org/cl/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-parent/admin-03-entity/admin-03-entity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-parent/admin-03-entity/admin-03-entity.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-parent/admin-parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/admin-parent/admin-parent.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-reverse/common-reverse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-reverse/common-reverse.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-util/common-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/common-util.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/founding.iml" beforeDir="false" afterPath="$PROJECT_DIR$/founding.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-parent/admin-02-componment/src/main/java/org/cl/web/config/CustomExceptionResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-parent/admin-02-componment/src/main/java/org/cl/web/config/CustomExceptionResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-parent/admin-02-componment/src/main/java/org/cl/web/config/SecurityAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-parent/admin-02-componment/src/main/java/org/cl/web/config/SecurityAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-parent/admin-02-componment/src/main/java/org/cl/web/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-parent/admin-02-componment/src/main/java/org/cl/web/controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-reverse/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-reverse/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-reverse/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-reverse/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/src/main/java/org/cl/constant/SystemConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/src/main/java/org/cl/constant/SystemConstant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,6 +417,7 @@
         <option value="spring-beans.schema" />
         <option value="Jsp File" />
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -120,6 +427,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../ProgramFiles/develop_tools/apache-maven-repository/org/springframework/security/spring-security-core/4.2.10.RELEASE/spring-security-core-4.2.10.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../../../ProgramFiles/develop_tools/apache-maven-repository/cn/hutool/hutool-all/5.3.5/hutool-all-5.3.5-sources.jar!/cn/hutool/core/date/DateUtil.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/member-parent/member-03-mysql-provider/src/main/java/org/cl/member/service/impl/MemberServiceImpl.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -148,12 +460,17 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/doc/sql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/member-parent/member-03-mysql-provider/src/main/java/org/cl/member/service/impl" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -162,117 +479,112 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.12254902" />
     <property name="project.structure.side.proportion" value="0.24060151" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.cl.member.entity.vo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\idea\study\founding\doc\sql" />
-      <recent name="D:\Code\idea\study\founding\admin-parent\admin-02-componment\src\main\java\org\cl\web\config" />
-      <recent name="E:\code\idea\study\founding\admin-parent\admin-03-entity\src\main\java\org\cl\entity" />
-      <recent name="E:\code\idea\study\founding\admin-parent\admin-02-componment\src\main\java\org\cl\service\impl" />
-      <recent name="E:\code\idea\study\founding\admin-parent\admin-02-componment\src\main\java\org\cl\service\api" />
+      <recent name="D:\Code\idea\study\founding\member-parent\member-03-mysql-provider\src\main\java\org\cl\member\service\impl" />
+      <recent name="D:\Code\idea\study\founding\member-parent\member-03-mysql-provider\src\main\java\org\cl\member\service\api" />
+      <recent name="D:\Code\idea\study\founding\member-parent\member-03-mysql-provider\src\main\java\org\cl\member\web" />
+      <recent name="D:\Code\idea\study\founding\member-parent\member-06-project-consumer\src\main\resources\templates" />
+      <recent name="D:\Code\idea\study\founding\member-parent\member-03-mysql-provider\src\main\resources\mybatis\mapper" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\idea\study\founding\member-parent\member-05-authentication-consumer\src\main\resources\static" />
       <recent name="E:\code\idea\study\founding\admin-parent\admin-01-webui\src\main\resources\mybatis\mapper" />
       <recent name="E:\code\idea\study\founding\admin-parent\admin-01-webui" />
       <recent name="E:\code\idea\study\founding\admin-parent\admin-01-webui\src\main\webapp\resource" />
       <recent name="E:\code\idea\study\founding\admin-parent\admin-02-componment\src\main\resources" />
-      <recent name="E:\code\idea\study\founding\admin-parent\admin-02-componment\src\main\java\org\cl" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.cl.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.tomcat9">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MemberEurekaApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataSourceTest.batchInsertAdmin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="admin-01-webui" />
+    <configuration name="Member03MysqlProviderApplicationTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="member-03-mysql-provider" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.cl.*" />
+          <option name="PATTERN" value="org.cl.member.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.cl" />
-      <option name="MAIN_CLASS_NAME" value="org.cl.DataSourceTest" />
-      <option name="METHOD_NAME" value="batchInsertAdmin" />
+      <option name="PACKAGE_NAME" value="org.cl.member" />
+      <option name="MAIN_CLASS_NAME" value="org.cl.member.Member03MysqlProviderApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Member03MysqlProviderApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="member-03-mysql-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cl.member.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cl.member" />
+      <option name="MAIN_CLASS_NAME" value="org.cl.member.Member03MysqlProviderApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Member03MysqlProviderApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="member-03-mysql-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cl.member.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cl.member" />
+      <option name="MAIN_CLASS_NAME" value="org.cl.member.Member03MysqlProviderApplicationTests" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataSourceTest.getConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="admin-01-webui" />
+    <configuration name="Member04RedisProviderApplicationTests.testRedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="member-04-redis-provider" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.cl.*" />
+          <option name="PATTERN" value="org.cl.member.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.cl" />
-      <option name="MAIN_CLASS_NAME" value="org.cl.DataSourceTest" />
-      <option name="METHOD_NAME" value="getConnection" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataSourceTest.insertAdminTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="admin-01-webui" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.cl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.cl" />
-      <option name="MAIN_CLASS_NAME" value="org.cl.DataSourceTest" />
-      <option name="METHOD_NAME" value="insertAdminTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataSourceTest.saveAdminByTxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="admin-01-webui" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.cl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.cl" />
-      <option name="MAIN_CLASS_NAME" value="org.cl.DataSourceTest" />
-      <option name="METHOD_NAME" value="saveAdminByTxTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Md5Test.md5Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="admin-01-webui" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.cl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.cl" />
-      <option name="MAIN_CLASS_NAME" value="org.cl.Md5Test" />
-      <option name="METHOD_NAME" value="md5Test" />
+      <option name="PACKAGE_NAME" value="org.cl.member" />
+      <option name="MAIN_CLASS_NAME" value="org.cl.member.Member04RedisProviderApplicationTests" />
+      <option name="METHOD_NAME" value="testRedis" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -286,49 +598,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="admin-01-webui" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+    <configuration name="Member03MysqlProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="member-03-mysql-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.cl.member.Member03MysqlProviderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="admin-01-webui" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+    <configuration name="Member04RedisProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="member-04-redis-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.cl.member.Member04RedisProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Member05AuthenticationConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="member-05-authentication-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.cl.member.Member05AuthenticationConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Member06ProjectConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="member-06-project-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.cl.member.Member06ProjectConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Member07OrderConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="member-07-order-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.cl.member.Member07OrderConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Member08PayConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="member-08-pay-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.cl.member.Member08PayConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Member09ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="member-09-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.cl.member.Member09ZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="member-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cl.member.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.cl.member.MemberEurekaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -467,20 +794,27 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DataSourceTest.batchInsertAdmin" />
-      <item itemvalue="JUnit.DataSourceTest.getConnection" />
-      <item itemvalue="JUnit.DataSourceTest.insertAdminTest" />
-      <item itemvalue="JUnit.DataSourceTest.saveAdminByTxTest" />
-      <item itemvalue="JUnit.Md5Test.md5Test" />
+      <item itemvalue="JUnit.Member03MysqlProviderApplicationTests" />
+      <item itemvalue="JUnit.Member03MysqlProviderApplicationTests (1)" />
+      <item itemvalue="JUnit.Member03MysqlProviderApplicationTests.test" />
+      <item itemvalue="JUnit.Member04RedisProviderApplicationTests.testRedis" />
+      <item itemvalue="Spring Boot.Member04RedisProviderApplication" />
+      <item itemvalue="Spring Boot.Member03MysqlProviderApplication" />
+      <item itemvalue="Spring Boot.Member05AuthenticationConsumerApplication" />
+      <item itemvalue="Spring Boot.Member07OrderConsumerApplication" />
+      <item itemvalue="Spring Boot.Member06ProjectConsumerApplication" />
+      <item itemvalue="Spring Boot.Member08PayConsumerApplication" />
+      <item itemvalue="Spring Boot.Member09ZuulApplication" />
+      <item itemvalue="Spring Boot.MemberEurekaApplication" />
       <item itemvalue="Tomcat Server.tomcat9" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Md5Test.md5Test" />
-        <item itemvalue="JUnit.DataSourceTest.saveAdminByTxTest" />
-        <item itemvalue="JUnit.DataSourceTest.insertAdminTest" />
-        <item itemvalue="JUnit.DataSourceTest.getConnection" />
-        <item itemvalue="JUnit.DataSourceTest.batchInsertAdmin" />
+        <item itemvalue="Spring Boot.MemberEurekaApplication" />
+        <item itemvalue="JUnit.Member04RedisProviderApplicationTests.testRedis" />
+        <item itemvalue="JUnit.Member03MysqlProviderApplicationTests.test" />
+        <item itemvalue="JUnit.Member03MysqlProviderApplicationTests (1)" />
+        <item itemvalue="JUnit.Member03MysqlProviderApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -568,8 +902,44 @@
       <workItem from="1609239204310" duration="676000" />
       <workItem from="1609239900871" duration="2182000" />
       <workItem from="1609288324227" duration="771000" />
-      <workItem from="1609289146470" duration="1816000" />
+      <workItem from="1609289146470" duration="5065000" />
+      <workItem from="1609507045536" duration="2692000" />
+      <workItem from="1609595974561" duration="1555000" />
+      <workItem from="1609598062770" duration="595000" />
+      <workItem from="1609682746548" duration="643000" />
+      <workItem from="1609727114975" duration="1506000" />
+      <workItem from="1611235652736" duration="21879000" />
+      <workItem from="1611471325029" duration="2076000" />
+      <workItem from="1611496549570" duration="669000" />
+      <workItem from="1611532344384" duration="1194000" />
+      <workItem from="1611583319912" duration="1271000" />
+      <workItem from="1611584645323" duration="33000" />
+      <workItem from="1611584709506" duration="3965000" />
+      <workItem from="1611619582161" duration="14218000" />
+      <workItem from="1611644178449" duration="8320000" />
+      <workItem from="1611705758733" duration="15275000" />
+      <workItem from="1611794123748" duration="21798000" />
+      <workItem from="1611878188500" duration="15185000" />
+      <workItem from="1611928839949" duration="3198000" />
+      <workItem from="1612014232917" duration="1199000" />
+      <workItem from="1612101562631" duration="529000" />
+      <workItem from="1612102264948" duration="4472000" />
     </task>
+    <task id="LOCAL-00001" summary="初始提交">
+      <created>1609292856667</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609292856668</updated>
+    </task>
+    <task id="LOCAL-00002" summary="初始提交">
+      <created>1609292877906</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609292877906</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,12 +971,32 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始提交" />
+    <MESSAGE value="完整提交代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="完整提交代码" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../ProgramFiles/develop_tools/apache-maven-repository/org/springframework/security/spring-security-core/4.2.10.RELEASE/spring-security-core-4.2.10.RELEASE.jar!/org/springframework/security/access/prepost/PrePostAnnotationSecurityMetadataSource.class</url>
+          <line>27</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="6" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
     <find-history>
       <element expression="saveAdmin" />
     </find-history>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

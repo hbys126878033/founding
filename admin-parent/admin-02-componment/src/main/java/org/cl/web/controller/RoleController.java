@@ -5,6 +5,7 @@ import org.cl.entity.Role;
 import org.cl.service.api.RoleService;
 import org.cl.util.ResultEntity;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,7 +17,7 @@ import java.util.List;
 /**
  * @author chenlin
  * @create 2020-06-09 9:49
- * @description: TODO
+ * @description: 角色控制器
  * @version：1.0
  **/
 @Controller
@@ -25,6 +26,7 @@ public class RoleController {
     @Autowired
     private RoleService roleService;
 
+    @PreAuthorize("hasRole('部长')")
     @ResponseBody
     @RequestMapping("/role/get/page/info")
     public ResultEntity<PageInfo<Role>> getPageInfo(@RequestParam(value="pageNum", defaultValue="1") Integer pageNum,

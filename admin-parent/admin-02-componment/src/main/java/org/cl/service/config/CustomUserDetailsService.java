@@ -1,5 +1,6 @@
 package org.cl.service.config;
 
+import lombok.extern.slf4j.Slf4j;
 import org.cl.entity.Admin;
 import org.cl.entity.Role;
 import org.cl.service.api.AdminService;
@@ -20,11 +21,12 @@ import java.util.List;
 /**
  * @author chenlin
  * @create 2020-12-27 21:55
- * @description: TODO
+ * @description: 自定义的UserDetailsService
  * @version：1.0
  **/
 
 @Component
+@Slf4j
 public class CustomUserDetailsService implements UserDetailsService {
     @Autowired
     private AdminService adminService;
@@ -74,6 +76,9 @@ public class CustomUserDetailsService implements UserDetailsService {
 
         // 8.封装SecurityAdmin对象
         SecurityAdmin securityAdmin = new SecurityAdmin(admin, authorities);
+
+        log.info("账号校验完成，用户信息 : {}", securityAdmin);
+
 
         return securityAdmin;
     }

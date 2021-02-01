@@ -9,6 +9,17 @@
     <file url="file://$PROJECT_DIR$/common-reverse/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-reverse/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-01-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-01-eureka/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-02-entity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-03-mysql-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-04-redis-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-05-authentication-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-06-project-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-07-order-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-08-pay-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-09-zuul/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-10-api/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

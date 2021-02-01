@@ -35,7 +35,10 @@
 			$("select:eq(1)>option").prop("selected","selected");
 			
 			// 为了看到上面代码的效果，暂时不让表单提交
-			return false;
+			// return false;
+
+
+			return true;
 		});
 	});
 </script>
@@ -53,7 +56,7 @@
 				</ol>
 				<div class="panel panel-default">
 					<div class="panel-body">
-						<form action="assign/do/role/assign.html" method="post" role="form" class="form-inline">
+						<form action="assign/do/role/assign" method="post" role="form" class="form-inline">
 							<input type="hidden" name="adminId" value="${param.adminId }" />
 							<input type="hidden" name="pageNum" value="${param.pageNum }" />
 							<input type="hidden" name="keyword" value="${param.keyword }" />

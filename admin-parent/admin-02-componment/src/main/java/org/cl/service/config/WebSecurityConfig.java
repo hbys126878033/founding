@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
@@ -27,7 +28,12 @@ import java.io.IOException;
  **/
 
 @Configuration
+// 启用Web环境下权限控制功能
 @EnableWebSecurity
+// 启用全局方法权限控制功能，并且设置prePostEnabled = true。保证@PreAuthority、@PostAuthority、@PreFilter、@PostFilter生效
+// 当前配置并没有生效，在Spring-web-mvc.xml中重新配置了该功能，才可以生效
+@EnableGlobalMethodSecurity(prePostEnabled = true,securedEnabled = true)
+
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
 //    @Autowired
@@ -36,6 +42,13 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     private UserDetailsService userDetailsService;
 
+    /**
+     * 密码加密使用的帮助类(带盐值的加密方式)
+     *
+     * @author CL  
+     * @return org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder
+     * @date 2021/1/22 7:47
+     */
     @Bean
     public BCryptPasswordEncoder bCryptPasswordEncoder(){
         return new BCryptPasswordEncoder();
@@ -108,14 +121,13 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .permitAll()                    // 针对静态资源进行设置，无条件访问
                 .antMatchers("/resource/ztree/**")       // 针对静态资源进行设置，无条件访问
                 .permitAll()
-                //.antMatchers("/admin/get/page")	// 针对分页显示Admin数据设定访问控制
-                //.access("hasRole('经理') OR hasAuthority('user:get')")	// 要求具备“经理”角色和“user:get”权限二者之一
+                .antMatchers("/admin/get/page")	// 针对分页显示Admin数据设定访问控制 , 资源上锁，有对应的角色或者权限就可以访问
+                .access("hasRole('经理') OR hasAuthority('user:get')")	// 要求具备“经理”角色和“user:get”权限二者之一
                 .anyRequest()					// 其他任意请求
                 .authenticated()				// 认证后访问
                 .and()
                 .exceptionHandling()
                 .accessDeniedHandler(new AccessDeniedHandler() {
-
                     @Override
                     public void handle(HttpServletRequest request, HttpServletResponse response,
                                        AccessDeniedException accessDeniedException) throws IOException, ServletException {
@@ -135,7 +147,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .logout()						// 开启退出登录功能
                 .logoutUrl("/security/do/logout")			// 指定退出登录地址
-                .logoutSuccessUrl("/admin/to/admin-main")	// 指定退出成功以后前往的地址
+                .logoutSuccessUrl("/admin/to/loginPage")	// 指定退出成功以后前往的地址
         ;
 
 

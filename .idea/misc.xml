@@ -7,8 +7,19 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/member-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/member-parent/member-02-entity/pom.xml" />
+        <option value="$PROJECT_DIR$/member-parent/member-03-mysql-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/member-parent/member-04-redis-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/member-parent/member-05-authentication-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/member-parent/member-06-project-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/member-parent/member-07-order-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/member-parent/member-08-pay-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/member-parent/member-09-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/member-parent/member-10-api/pom.xml" />
+        <option value="$PROJECT_DIR$/member-parent/member-01-eureka/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

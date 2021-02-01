@@ -1,5 +1,6 @@
 package org.cl.web.config;
 
+import lombok.EqualsAndHashCode;
 import org.cl.entity.Admin;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.User;
@@ -13,6 +14,7 @@ import java.util.List;
  * @description: 考虑到User对象中仅仅包含账号和密码，为了能够获取到原始的Admin(用户实体)对象，专门创建这个类对User类进行扩展
  * @version：1.0
  **/
+@EqualsAndHashCode(callSuper = true)
 public class SecurityAdmin extends User {
     // 原始的Admin对象，包含Admin对象的全部属性
     private Admin originalAdmin;

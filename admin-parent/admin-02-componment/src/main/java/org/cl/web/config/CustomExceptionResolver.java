@@ -1,7 +1,10 @@
 package org.cl.web.config;
 
 import com.google.gson.Gson;
+import lombok.extern.slf4j.Slf4j;
 import org.cl.exception.BusinessException;
+import org.cl.exception.LoginAcctAlreadyInUseException;
+import org.cl.exception.LoginAcctAlreadyInUseForUpdateException;
 import org.cl.exception.LoginFailedException;
 import org.cl.util.RequestUtils;
 import org.cl.util.ResultEntity;
@@ -21,8 +24,33 @@ import java.io.IOException;
  **/
 // @ControllerAdvice表示当前类是一个基于注解的异常处理器类
 @ControllerAdvice
+@Slf4j
 public class CustomExceptionResolver {
 
+
+    @ExceptionHandler(value = LoginAcctAlreadyInUseForUpdateException.class)
+    public ModelAndView resolveLoginAcctAlreadyInUseForUpdateException(
+            LoginAcctAlreadyInUseForUpdateException exception,
+            HttpServletRequest request,
+            HttpServletResponse response
+    ) throws IOException {
+
+        String viewName = "system-error";
+
+        return commonResolve(viewName, exception, request, response);
+    }
+
+    @ExceptionHandler(value = LoginAcctAlreadyInUseException.class)
+    public ModelAndView resolveLoginAcctAlreadyInUseException(
+            LoginAcctAlreadyInUseException exception,
+            HttpServletRequest request,
+            HttpServletResponse response
+    ) throws IOException {
+
+        String viewName = "admin-add";
+
+        return commonResolve(viewName, exception, request, response);
+    }
 
     @ExceptionHandler(value = LoginFailedException.class)
     public ModelAndView resolverLoginFailedException(LoginFailedException e, HttpServletRequest request,
@@ -64,6 +92,17 @@ public class CustomExceptionResolver {
         return commonResolve(viewName, exception, request, response);
     }
 
+    @ExceptionHandler(value = Exception.class)
+    public ModelAndView resolveException(
+            Exception exception,
+            HttpServletRequest request,
+            HttpServletResponse response
+    ) throws IOException {
+
+        String viewName = "system-error";
+
+        return commonResolve(viewName, exception, request, response);
+    }
 
     private ModelAndView commonResolve(
 
@@ -79,11 +118,16 @@ public class CustomExceptionResolver {
             // 当前响应对象
             HttpServletResponse response) throws IOException {
 
+
+        log.info("请求URL={},异常信息:{}",request.getRequestURI(),exception.getMessage());
+
         // 1.判断当前请求类型
         boolean judgeResult = RequestUtils.isAjaxRequest(request);
 
         // 2.如果是Ajax请求
         if(judgeResult) {
+
+
 
             // 3.创建ResultEntity对象
             ResultEntity<Object> resultEntity = ResultEntity.failed(exception.getMessage());
